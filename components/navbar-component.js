@@ -6,6 +6,14 @@ class Navbar extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+    <style>
+      .stick{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+      }
+    </style>
+
     <div class="flex mt-2 mx-2 justify-between">
       <img src="images/user.jpeg" class="w-8 h-8"></img>
       <ul class="mt-1 flex flex-row justify-end">
