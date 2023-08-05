@@ -14,11 +14,12 @@ class Navbar extends HTMLElement {
       }
     </style>
 
-    <div class="flex mt-2 mx-2 justify-between">
-      <img src="images/user.jpeg" class="w-8 h-8"></img>
+    <div class="flex mt-2 justify-between shadow-lg">
+      <img src="images/user.jpeg" class="mx-5 mb-2 w-8 h-8"></img>
       <ul class="mt-1 flex flex-row justify-end">
         <li><a href="index.html" class="mx-4">HOME</a></li>
         <li><a href=# class="mx-4">ABOUT ME</a></li>
+        <li><a href=# class="mx-4">CONTACT</a></li>
       </ul>
     </div>  
     `;
