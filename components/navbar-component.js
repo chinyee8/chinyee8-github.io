@@ -19,6 +19,7 @@ class Navbar extends HTMLElement {
       <ul class="mt-1 flex flex-row justify-end">
         <li><a href="index.html" class="mx-4">HOME</a></li>
         <li><a href=# class="mx-4">ABOUT ME</a></li>
+        <li><a href=# class="mx-4">PROJECTS</a></li>
         <li><a href=# class="mx-4">CONTACT</a></li>
       </ul>
     </div>  
