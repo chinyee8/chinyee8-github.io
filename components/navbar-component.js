@@ -15,7 +15,7 @@ class Navbar extends HTMLElement {
     </style>
 
     <div class="stick flex mt-2 justify-between shadow-lg bg-white">
-      <img src="files/logo2.png" class="mx-5 w-20 h-12"></img>
+      <a href="#home"><img src="files/logo2.png" class="mx-5 w-20 h-12"></img></a>
       <ul class="mt-4 mr-12 flex flex-row justify-end">
         <li><a href="#home" class="mx-4">HOME</a></li>
         <li><a href="#aboutme" class="mx-4">ABOUT</a></li>
