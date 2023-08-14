@@ -14,13 +14,11 @@ class Navbar extends HTMLElement {
       }
     </style>
 
-    <div class="flex mt-2 justify-between shadow-lg">
-      <img src="images/user.jpeg" class="mx-5 mb-2 w-8 h-8"></img>
-      <ul class="mt-1 flex flex-row justify-end">
-        <li><a href="index.html" class="mx-4">HOME</a></li>
-        <li><a href="#aboutme" class="mx-4">ABOUT ME</a></li>
-        <li><a href=# class="mx-4">PROJECTS</a></li>
-        <li><a href=# class="mx-4">CONTACT</a></li>
+    <div class="stick flex mt-2 justify-between shadow-lg bg-white">
+      <img src="files/logo2.png" class="mx-5 w-20 h-12"></img>
+      <ul class="mt-4 mr-12 flex flex-row justify-end">
+        <li><a href="#home" class="mx-4">HOME</a></li>
+        <li><a href="#aboutme" class="mx-4">ABOUT</a></li>
       </ul>
     </div>  
     `;

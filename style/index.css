@@ -6,6 +6,13 @@ html{
     scroll-behavior: smooth;
 }
 
+body {
+    background-image: url('../files/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
 .center{
     position: absolute;
     top: 50%;

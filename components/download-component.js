@@ -1,4 +1,4 @@
-class Button extends HTMLElement {
+class Download extends HTMLElement {
     constructor() {
       super();
     }
@@ -12,7 +12,7 @@ class Button extends HTMLElement {
       background-color:
      }
     </style>
-    <a class="bg-blue-300 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg m-2" href="${this.linkText} ">
+    <a class="bg-blue-300 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg m-2" href="${this.linkText}" download="${this.download}"">
       ${this.buttonText} <i class="${this.iconText}"></i>
     </a>  
     `;
@@ -47,7 +47,17 @@ class Button extends HTMLElement {
         this.setAttribute('icon', value);
     }
   }
+
+  get download(){
+    return this.getAttribute('download');
+  }
+
+  set download(value){
+    if(value){
+        this.setAttribute('download', value);
+    }
+  }
 }
 
 
-customElements.define('button-component', Button);
+customElements.define('download-component', Download);
