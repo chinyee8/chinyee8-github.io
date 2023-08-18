@@ -1,23 +1,50 @@
-*{
-
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    background-image: url('../files/background.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-  }
-
-.center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -50px 0 0 -50px;
-    padding: 10px;
+  background-image: url("../files/background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  padding: 10px;
+}
+
+.status {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    background: #4338ca;
+    font-size: large;
+    text-align: center;
+    padding-top: 2px;
+    color:white;
+  }
+
+.status:before {
+    content: "";
+    position: absolute;
+    right: -15px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid #4338ca;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+
+div.bg-blur{
+  background-color: white; /* Fallback color */
+  opacity: 0.8;
+}

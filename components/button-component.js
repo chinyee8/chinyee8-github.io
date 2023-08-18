@@ -1,9 +1,7 @@
 class Button extends HTMLElement {
-    constructor() {
-      super();
-    }
-  
-    
+  constructor() {
+    super();
+  }
 
   connectedCallback() {
     this.innerHTML = `
@@ -18,36 +16,35 @@ class Button extends HTMLElement {
     `;
   }
 
-  get buttonText(){
-    return this.getAttribute('button-text');
+  get buttonText() {
+    return this.getAttribute("button-text");
   }
 
-  set buttonText(value){
-    if(value){
-        this.setAttribute('button-text', value);
+  set buttonText(value) {
+    if (value) {
+      this.setAttribute("button-text", value);
     }
   }
 
-  get linkText(){
-    return this.getAttribute('link');
+  get linkText() {
+    return this.getAttribute("link");
   }
 
-  set linkText(value){
-    if(value){
-        this.setAttribute('link', value);
+  set linkText(value) {
+    if (value) {
+      this.setAttribute("link", value);
     }
   }
 
-  get iconText(){
-    return this.getAttribute('icon');
+  get iconText() {
+    return this.getAttribute("icon");
   }
 
-  set iconText(value){
-    if(value){
-        this.setAttribute('icon', value);
+  set iconText(value) {
+    if (value) {
+      this.setAttribute("icon", value);
     }
   }
 }
 
-
-customElements.define('button-component', Button);
+customElements.define("button-component", Button);
