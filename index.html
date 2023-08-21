@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Chin Yee</title>
     <link rel="stylesheet" href="style/index.css" />
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
@@ -34,6 +34,8 @@
   </head>
   <body>
     <navbar-component></navbar-component>
+
+    <!-- Home -->
     <div id="home" class="w-full h-screen">
       <div class="flex flex-col items-left justify-center mx-20">
         <div class="bg-blur mt-40 ">
@@ -65,27 +67,26 @@
       </div>
     </div>
 
+    <!-- AboutMe -->
     <div id="aboutme" class="w-full lg:h-screen sm:h-full bg-blue-100">
       <div class="flex flex-col items-left justify-center mx-20">
         <h1 class="text-5xl font-bold mt-40">Who am I?</h1>
 
         <div class="flex">
           <h3 class="status">Status</h3>
-          <h3 class="text-s pl-6">Looking for internship</h3>
+          <h3 class="text-s pl-6 font-bold mt-1 text-indigo-600">Looking for internship</h3>
         </div>
         <br />
 
+        <h3 class="font-bold text-xl">About Me</h3>
         <p>
-          I am Chin Yee Lai. Feel free to address me as Chin or May. Presently,
-          I currently pursuing of a bachelor's degree in Computer Science at
+          I am Chin Yee Lai. Feel free to address me as Chin. Currently,
+          I'm pursuing a bachelor's degree in Computer Science at
           York University in Toronto and I'm graduating this December 2023. In
           the face of challenges, my approach involves meticulous
           problem-solving, breaking down complex issues into manageable
-          components to solve them.
-        </p>
-        <br /><br />
-        <h3></h3>
-        <p>
+          components to solve them.<br/><br/>
+        
           As the esteemed Stephen Hawking once said, "Intelligence is the
           ability to adapt to changes." This sentiment resonates deeply with me.
           Originating from Malaysia, I embarked on a transformative journey to
@@ -95,6 +96,7 @@
           venture: residing in the United States.
         </p>
         <br /><br />
+        <h3 class="font-bold text-xl">Focus</h3>
         <p>
           At present, my focus gravitates towards frontend and software
           development. The process of crafting user experiences and constructing
@@ -104,29 +106,29 @@
           degree in the same field.
         </p>
 
-        <div class="mt-12">
-          <download-component
+        <div class="mt-4 flex">
+            <div class="mt-6 mx-2"><download-component
             button-text="Resume"
             link="../files/resume.pdf"
             icon="fa-solid fa-download"
             download="Chin_Yee_Lai_resume.pdf"
-          ></download-component>
-          <div class="mt-4">
-            <a class="text-xl m-4" href="https://www.linkedin.com/in/chinyeelai"
+            ></download-component></div>
+            
+            <div class="mt-4 mx-2"> <a class="text-3xl" href="https://www.linkedin.com/in/chinyeelai"
               ><i class="fa-brands fa-linkedin"></i
-            ></a>
-            <a class="text-xl pt-4" href="https://github.com/chinyee8"
+            ></a></div>
+           
+            <div class="mt-4 mx-2"><a class="text-3xl" href="https://github.com/chinyee8"
               ><i class="fa-brands fa-github"></i
-            ></a>
-          </div>
+            ></a></div>
+            
         </div>
       </div>
     </div>
 
-    <!-- <div id="contact" class="w-full h-screen ">
+    <!-- <div id="project" class="w-full h-screen ">
         <div class="flex flex-col items-left justify-center mx-10  ">
-            <h1 class="text-5xl font-bold mt-40">Contact Me</h1>
-            <h3 class="text-s ">Contact</h3>
+            
             
   
   
