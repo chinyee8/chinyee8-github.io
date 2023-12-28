@@ -1,5 +1,40 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --main-colorpurple: rgb(159, 159, 248);
+    --main-colorblue: #37b9f1;
+    --main-colorwhite: #f2f5f5;
+    --text-colorGrey: #777;
+    --text-colorLight: #e1dfe9;
+    --text-colorBlue: rgb(0, 0, 255);
+    --lengthSm1: 0.25rem;
+    --lengthSm2: 0.375rem;
+    --lengthSm3: 0.5rem;
+    --lengthMd1: 1rem;
+    --lengthMd2: 1.25rem;
+    --lengthMd3: 1.5 rem;
+    --lengthLg1: 2rem;
+    --lengthLg2: 3 rem;
+    --lengthLg3: 4 rem;
+    --button: rgb(205, 205, 205);
+    --hoverbutton: grey;
+    --border: .1em solid #222;
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    --box-shadow-hover: inset 0 -5px 0 0 rgb(0, 0, 0);
+    --text-shadow: 2px 2px var(--main-color);
+}
+
 * {
   font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: medium;
 }
 
 html {
