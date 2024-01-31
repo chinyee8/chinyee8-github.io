@@ -2,7 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root {
+
+/* :root {
     --main-colorpurple: rgb(159, 159, 248);
     --main-colorblue: #37b9f1;
     --main-colorwhite: #f2f5f5;
@@ -24,17 +25,17 @@
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     --box-shadow-hover: inset 0 -5px 0 0 rgb(0, 0, 0);
     --text-shadow: 2px 2px var(--main-color);
-}
+} */
 
 * {
-  font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    outline: none;
+  /* font-family: Arial, Helvetica, sans-serif; */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* outline: none;
     border: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-size: medium;
+    font-size: medium; */
 }
 
 html {
