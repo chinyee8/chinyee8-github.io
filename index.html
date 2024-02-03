@@ -33,38 +33,35 @@
       defer
     ></script>
   </head>
-
+  
+  <body>
     <!-- Home -->
     <navbar-component></navbar-component>
-
-    <!-- Home -->
-
-    <div id="home" class="w-full lg:h-screen sm:h-full">
-      <div class="flex flex-col items-left justify-center mx-20">
-        <div class="bg-blur xl:mt-40 sm:mt-30">
-          <p class="">Hey there!</p>
-          <h1 class="desktop:text-5xl tablet:text-3xl font-bold">I AM CHIN YEE</h1>
-          <p class="text-s">Majoring in Computer Science</p>
+    <div id="home" class="w-screen h-full sm:h-screen pt-16">
+      <div class="bg-blur flex flex-col items-left justify-center py-20 sm:mx-20 sm:mt-40 min-[320px]:mx-3 min-[320px]:mt-18">
+          <p class="md:text-3xl min-[320px]:text-xl">Hey there!</p>
+          <h1 class="md:text-5xl min-[320px]:text-3xl font-bold">I AM CHIN YEE</h1>
+          <p class="text-xl">Majoring in Computer Science</p>
           <br /><br />
 
-          <div class="tablet:content-center">
-            <div class="inline-block my-[20px]">
+          <div class="content-center">
+            <div class="inline-block">
               <button-component
               button-text="About Me"
               link="#aboutme"
               icon="fa-solid fa-arrow-down"
               ></button-component>
             </div>
-            <div class="inline-block">
+            <br class="sm:hidden"/> <br class="sm:hidden"/>
+            <div class="mr-2 inline-block">
               <button-component
               button-text="Contact Me"
               link="mailto:laichinyee1101@gmail.com"
               icon="fa-solid fa-paper-plane"
               ></button-component>
             </div>
-            
           </div>
-        </div>
+      </div>
 
       <div class="absolute flex justify-center w-56 bottom-0">
         <div id="scroll">
@@ -76,23 +73,23 @@
     
 
     <!-- AboutMe -->
-    <div id="aboutme" class="w-full h-screen pt-12 bg-blue-100">
-      <div class="flex flex-col items-left justify-center mx-20">
-        <h1 class="text-5xl font-bold mt-40">Who am I?</h1>
+    <div id="aboutme" class="w-screen h-full sm:h-screen max-[375px]:mt-10 pt-12 ">
+      <div class="bg-blur flex flex-col items-left justify-center py-20 sm:mx-20 sm:mt-20 min-[320px]:mx-3 min-[320px]:mt-20">
+        <h1 class="md:text-5xl min-[320px]:text-3xl font-bold ">Who am I?</h1>
 
-        <div class="flex">
+        <!-- <div class="flex">
           <h3 class="status">Status</h3>
           <h3 class="text-s pl-6 font-bold mt-1 text-indigo-600">
             Looking for internship
           </h3>
-        </div>
-        <br />
+        </div> -->
+        <br class="hidden sm:block"/>
 
-        <h3 class="font-bold text-xl">About Me</h3>
+        <h3 class="md:text-xl min-[320px]:text-md font-bold">About Me</h3>
         <p>
-          I am Chin Yee Lai. Feel free to address me as Chin. Currently, I'm
-          pursuing a bachelor's degree in Computer Science at York University in
-          Toronto and I'm graduating this December 2023. In the face of
+          I am Chin Yee Lai. Feel free to address me as Chin. Currently, I've just graduated from
+          a bachelor's degree (Honours) in Computer Science at York University in
+          Toronto, Canada this December 2023. In the face of
           challenges, my approach involves meticulous problem-solving, breaking
           down complex issues into manageable components to solve them.<br /><br />
 
@@ -104,8 +101,9 @@
           my adaptability. Undeterred, my aspirations propel me towards my next
           venture: residing in the United States.
         </p>
-        <br /><br />
-        <h3 class="font-bold text-xl">Focus</h3>
+        <br class="hidden sm:block"/><br />
+
+        <h3 class="md:text-xl min-[320px]:text-md font-bold">Focus</h3>
         <p>
           At present, my focus gravitates towards frontend and software
           development. The process of crafting user experiences and constructing
@@ -115,7 +113,7 @@
           degree in the same field.
         </p>
 
-        <div class="mt-4 flex">
+        <div class="mt-4 flex justify-center">
           <div class="mt-6 mx-2">
             <download-component
               button-text="Resume"
@@ -126,13 +124,13 @@
           </div>
 
           <div class="mt-4 mx-2">
-            <a class="text-3xl" href="https://www.linkedin.com/in/chinyeelai"
+            <a class="text-3xl hover:text-blue-500 " href="https://www.linkedin.com/in/chinyeelai"
               ><i class="fa-brands fa-linkedin"></i
             ></a>
           </div>
 
           <div class="mt-4 mx-2">
-            <a class="text-3xl" href="https://github.com/chinyee8"
+            <a class="text-3xl hover:text-blue-500" href="https://github.com/chinyee8"
               ><i class="fa-brands fa-github"></i
             ></a>
           </div>
@@ -141,9 +139,9 @@
     </div>
 
     <!-- Projects -->
-    <div id="project" class="w-full lg:h-screen sm:h-full bg-pink-100">
-      <div class="flex flex-col items-left justify-center mx-20">
-        <h1 class="text-5xl font-bold mt-40">Projects</h1>
+    <div id="project" class="w-screen h-full sm:h-screen pt-12">
+      <div class="bg-blur flex flex-col items-left justify-center py-20 sm:mx-20 sm:mt-20 min-[320px]:mx-3 min-[320px]:mt-20">
+        <h1 class="md:text-5xl min-[320px]:text-3xl font-bold ">Projects</h1>
 
         <div>
           <div></div>

@@ -46,7 +46,7 @@ class Navbar extends HTMLElement {
       }
     </style>
 
-    <div class=" stick flex mt-2 justify-between shadow-lg bg-white">
+    <div class="z-10 stick flex pt-2 justify-between shadow-lg bg-white">
         <a href="#home"><img src="files/logo2.png" class="mx-5 w-20 h-12"></img></a>
           <div class="mt-4 mr-12 flex flex-row justify-end"><i class="menu-icon fa-solid fa-bars justify-end flex flex-row"  onclick="openMobileMenu()"></i> </div>
       

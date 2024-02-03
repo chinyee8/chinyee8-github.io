@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-      './server/admin/**/*.{html,js}',
-      './server/public/**/*.tpl',
-      './pages/**/*.{html,js}',
-      './components/**/*.{html,js}',
+      "./*.{html,js}",
+      // './server/admin/**/*.{html,js}',
+      // './server/public/**/*.tpl',
+      "./files/**/*.{html,js}",
+      "./components/**/*.{html,js}",
+      "./style/**/*.{html,js}",
   ],
-  // content: ['./src/**/*.{html,js}'],
   theme: {
     colors: {
       primary: '#4f46e5',
@@ -48,29 +49,16 @@ module.exports = {
       xl: '24px',
     },
     screens: {
-      // 'sm': '640px',
-      // // => @media (min-width: 640px) { ... }
 
-      // 'md': '768px',
-      // // => @media (min-width: 768px) { ... }
-
-      // 'lg': '1024px',
-      // // => @media (min-width: 1024px) { ... }
-
-      // 'xl': '1280px',
-      // // => @media (min-width: 1280px) { ... }
-
-      // '2xl': '1536px',
-      // // => @media (min-width: 1536px) { ... }
       'tablet': '640px',
-        // => @media (min-width: 640px) { ... }
+      // => @media (min-width: 640px) { ... }
 
       'laptop': '1024px',
-        // => @media (min-width: 1024px) { ... }
+      // => @media (min-width: 1024px) { ... }
 
       'desktop': '1280px',
-        // => @media (min-width: 1280px) { ... }
 
+      'xs': {'max': '639px'},
     },
     extend: {
       spacing: {

@@ -10,7 +10,7 @@ class Button extends HTMLElement {
       background-color:
      }
     </style>
-    <a class="bg-primary hover:bg-primaryhover text-white font-bold py-2 px-4 rounded-lg m-2" href="${this.linkText} ">
+    <a class="bg-primary hover:bg-primaryhover text-white font-bold py-2 px-4 rounded-lg" href="${this.linkText} ">
       ${this.buttonText} <i class="${this.iconText}"></i>
     </a>  
     `;

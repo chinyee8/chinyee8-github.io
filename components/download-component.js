@@ -10,7 +10,7 @@ class Download extends HTMLElement {
       background-color:
      }
     </style>
-    <a class="bg-blue-300 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg m-2" href="${this.linkText}" download="${this.download}"">
+    <a class="bg-primary hover:bg-primaryhover text-white font-bold py-2 px-4 rounded-lg m-2" href="${this.linkText}" download="${this.download}"">
       ${this.buttonText} <i class="${this.iconText}"></i>
     </a>  
     `;
