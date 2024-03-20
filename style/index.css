@@ -43,15 +43,29 @@ html {
 }
 
 body {
+  /* background-image: url("../files/background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+}
+
+p{
+  text-align: justify;
+  font-size: medium;
+}
+
+.home {
   background-image: url("../files/background.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-p{
-  text-align: justify;
-  font-size: medium;
+.aboutme {
+  background-image: url("../files/background_black.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .center {

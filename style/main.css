@@ -618,10 +618,6 @@ video {
   background-color: rgb(79 70 229 / var(--tw-bg-opacity));
 }
 
-.text-justify {
-  text-align: justify;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -684,15 +680,29 @@ html {
 }
 
 body {
+  /* background-image: url("../files/background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+}
+
+p{
+  text-align: justify;
+  font-size: medium;
+}
+
+.home {
   background-image: url("../files/background.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-p{
-  text-align: justify;
-  font-size: medium;
+.aboutme {
+  background-image: url("../files/background_black.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .center {
