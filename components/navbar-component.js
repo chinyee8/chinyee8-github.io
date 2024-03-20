@@ -53,17 +53,17 @@ class Navbar extends HTMLElement {
         <div id="mobile-menu" class="mobile-menu mt-4 mr-12 flex flex-row justify-end">
             <a href="#home" class="mx-4">HOME</a>
             <a href="#aboutme" class="mx-4">ABOUT</a>
-            <a href="#project" class="mx-4">PROJECT</a>
         </div>
 
         <ul class="menu mt-4 mr-12 flex flex-row justify-end">
           <li><a href="#home" class="mx-4">HOME</a></li>
           <li><a href="#aboutme" class="mx-4">ABOUT</a></li>
-          <li><a href="#project" class="mx-4">PROJECT</a></li>
         </ul>
     </div>  
     `;
   }
 }
+            // <a href="#project" class="mx-4">PROJECT</a>
+          // <li><a href="#project" class="mx-4">PROJECT</a></li>
 
 customElements.define("navbar-component", Navbar);
