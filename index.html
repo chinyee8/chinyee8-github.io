@@ -32,110 +32,101 @@
       type="text/javascript"
       defer
     ></script>
+    <script
+      src="components/card-component.js"
+      type="text/javascript"
+      defer
+    ></script>
   </head>
   
   <body>
-    <!-- Home -->
+    
     <navbar-component></navbar-component>
-    <div id="home" class="home w-screen h-full sm:h-screen pt-16">
-      <div class="bg-blur flex flex-col items-left justify-center py-20 sm:mx-20 sm:mt-40 min-[320px]:mx-3 min-[320px]:mt-18">
-          <p class="md:text-3xl min-[320px]:text-xl">Hey there!</p>
-          <h1 class="md:text-5xl min-[320px]:text-3xl font-bold">I AM CHIN YEE</h1>
-          <p class="text-xl">Majoring in Computer Science</p>
-          <br /><br />
 
-          <div class="content-center">
-            <div class="inline-block">
-              <button-component
-              button-text="About Me"
-              link="#aboutme"
-              icon=""
-              ></button-component>
-              <!-- fa-solid fa-arrow-down -->
-            </div>
-            <br class="sm:hidden"/> <br class="sm:hidden"/>
-            <div class="mr-2 inline-block">
-              <button-component
-              button-text="Contact Me"
-              link="mailto:laichinyee1101@gmail.com"
-              icon="fa-solid fa-paper-plane"
-              ></button-component>
+    <!-- Home -->
+    <div id="home" class="home w-screen h-full h-screen pt-16">
+          <div class="bg-blur flex flex-col items-left justify-center py-20 px-6 sm:mx-20 sm:mt-40 min-[320px]:mx-3 min-[320px]:mt-18">
+              <p class="md:text-3xl min-[320px]:text-xl">Hey there!</p>
+              <h1 class="md:text-5xl min-[320px]:text-3xl font-bold">I AM CHIN YEE</h1>
+              <p class="text-xl">Majoring in Computer Science</p>
+              <br /><br />
+
+              <div class="content-center">
+                <div class="inline-block">
+                  <button-component
+                  button-text="About Me"
+                  link="#aboutme"
+                  icon=""
+                  ></button-component>
+                  <!-- fa-solid fa-arrow-down -->
+                </div>
+                <br class="sm:hidden"/> <br class="sm:hidden"/>
+                <div class="mr-2 inline-block">
+                  <button-component
+                  button-text="Contact Me"
+                  link="mailto:laichinyee1101@gmail.com"
+                  icon="fa-solid fa-paper-plane"
+                  ></button-component>
+                </div>
+              </div>
+          </div>
+
+          <div class="absolute flex justify-center w-56 bottom-0">
+            <div id="scroll">
+              <p class="text-gray-400 mx-auto">SCROLL</p>
+              <div class="w-px h-20 bg-gray-400 mx-auto"></div>
             </div>
           </div>
-      </div>
-
-      <div class="absolute flex justify-center w-56 bottom-0">
-        <div id="scroll">
-          <p class="text-gray-400 mx-auto">SCROLL</p>
-          <div class="w-px h-20 bg-gray-400 mx-auto"></div>
-        </div>
-      </div>
     </div>
     
 
     <!-- AboutMe -->
-    <div id="aboutme" class="aboutme w-screen h-full sm:h-screen max-[375px]:mt-10 pt-12 ">
-      <div class="bg-blur flex flex-col items-left justify-center py-20 sm:mx-20 sm:mt-20 min-[320px]:mx-3 min-[320px]:mt-20">
-        <h1 class="md:text-5xl min-[320px]:text-3xl font-bold ">Who am I?</h1>
+    <div id="aboutme" class="aboutme w-screen h-full max-[375px]:mt-10 pt-12">
+      <div class="flex flex-col items-left justify-center py-20 px-6 sm:mx-20  min-[320px]:mx-3">
+            <h1 class="md:text-5xl min-[320px]:text-3xl font-bold text-white m-[10px] ">Who am I?</h1>
 
-        <!-- <div class="flex">
-          <h3 class="status">Status</h3>
-          <h3 class="text-s pl-6 font-bold mt-1 text-indigo-600">
-            Looking for internship
-          </h3>
-        </div> -->
-        <br class="hidden sm:block"/>
+            <div class="md:flex">
+                  <card-component 
+                    card-title = "About Me"
+                    card-text = "I am Chin Yee Lai. Feel free to address me as Chin. Currently, I've just graduated from a bachelor's degree (Honours) in Computer Science at York University in Toronto, Canada this December 2023. In the face of challenges, my approach involves meticulous problem-solving, breaking down complex issues into manageable components to solve them.<br /><br />
 
-        <h3 class="md:text-xl min-[320px]:text-md font-bold">About Me</h3>
-        <p>
-          I am Chin Yee Lai. Feel free to address me as Chin. Currently, I've just graduated from
-          a bachelor's degree (Honours) in Computer Science at York University in
-          Toronto, Canada this December 2023. In the face of
-          challenges, my approach involves meticulous problem-solving, breaking
-          down complex issues into manageable components to solve them.<br /><br />
+                    As the esteemed Stephen Hawking once said, &quot;Intelligence is the ability to adapt to changes.&quot; This sentiment resonates deeply with me. Originating from Malaysia, I embarked on a transformative journey to Canada, leaving behind the familiarity of friends and family. The experience of acclimatizing to an entirely new environment has honed my adaptability. Undeterred, my aspirations propel me towards my next venture: residing in the United States."
+                  ></card-component>
 
-          As the esteemed Stephen Hawking once said, "Intelligence is the
-          ability to adapt to changes." This sentiment resonates deeply with me.
-          Originating from Malaysia, I embarked on a transformative journey to
-          Canada, leaving behind the familiarity of friends and family. The
-          experience of acclimatizing to an entirely new environment has honed
-          my adaptability. Undeterred, my aspirations propel me towards my next
-          venture: residing in the United States.
-        </p>
-        <br class="hidden sm:block"/><br />
 
-        <h3 class="md:text-xl min-[320px]:text-md font-bold">Focus</h3>
-        <p>
-          At present, my focus gravitates towards frontend and software
-          development. The process of crafting user experiences and constructing
-          functional software systems captivates my interest. Looking ahead,
-          upon attaining my Bachelor's degree in Computer Science, my ambition
-          encompasses both professional engagement and the pursuit of a Master's
-          degree in the same field.
-        </p>
-
-        <div class="mt-4 flex justify-center">
-          <div class="mt-6 mx-2">
-            <download-component
-              button-text="Resume"
-              link="../files/resume.pdf"
-              icon="fa-solid fa-download"
-              download="Chin_Yee_Lai_resume.pdf"
-            ></download-component>
-          </div>
-
-          <div class="mt-4 mx-2">
-            <a class="text-3xl hover:text-blue-500 " href="https://www.linkedin.com/in/chinyeelai"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-          </div>
-
-          <div class="mt-4 mx-2">
-            <a class="text-3xl hover:text-blue-500" href="https://github.com/chinyee8"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-          </div>
-        </div>
+                  <card-component 
+                    card-title="Focus"
+                    card-text="At present, my focus gravitates towards frontend and software
+                    development. The process of crafting user experiences and constructing
+                    functional software systems captivates my interest. Looking ahead,
+                    upon attaining my Bachelor's degree in Computer Science, my ambition
+                    encompasses both professional engagement and the pursuit of a Master's
+                    degree in the same field." 
+                  >
+                        <div class="mt-4 flex justify-center">
+                          <div class="mt-6 mx-2">
+                            <download-component
+                              button-text="Resume"
+                              link="../files/resume.pdf"
+                              icon="fa-solid fa-download"
+                              download="Chin_Yee_Lai_resume.pdf"
+                            ></download-component>
+                          </div>
+                
+                          <div class="mt-4 mx-2">
+                            <a class="text-3xl hover:text-blue-500 " href="https://www.linkedin.com/in/chinyeelai"
+                              ><i class="fa-brands fa-linkedin"></i
+                            ></a>
+                          </div>
+                
+                          <div class="mt-4 mx-2">
+                            <a class="text-3xl hover:text-blue-500" href="https://github.com/chinyee8"
+                              ><i class="fa-brands fa-github"></i
+                            ></a>
+                          </div>
+                        </div>
+                  </card-component>
+            </div>
       </div>
     </div>
 
