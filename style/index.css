@@ -55,14 +55,14 @@ p{
   font-size: medium;
 }
 
-.home {
+.whitebg {
   background-image: url("../files/background.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-.aboutme {
+.blackbg {
   background-image: url("../files/background_black.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
