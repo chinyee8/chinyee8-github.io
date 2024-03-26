@@ -104,7 +104,7 @@ div.bg-darkblur{
   opacity: 0.9;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
 
   .whitebg {
     background-image: url("../files/background.jpeg");
