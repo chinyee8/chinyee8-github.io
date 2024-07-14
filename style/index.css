@@ -104,12 +104,14 @@ div.bg-darkblur{
   opacity: 0.9;
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 767) {
 
   .whitebg {
     background-image: url("../files/background.jpeg");
-    background-repeat: no-repeat;
     background-position: right -100px center;
+    background-size: cover;
+    height:30vh;
+    min-height: unset;
   }
   
   .blackbg {
