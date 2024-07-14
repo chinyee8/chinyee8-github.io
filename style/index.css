@@ -109,7 +109,7 @@ div.bg-darkblur{
   .whitebg {
     background-image: url("../files/background.jpeg");
     background-repeat: no-repeat;
-    background-position: right -200px center;
+    background-position: right -100px center;
   }
   
   .blackbg {
